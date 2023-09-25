@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T20:23:54.726Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="O8za1CGaPR-l3smSTDqZ" version="21.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T20:30:22.804Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="S58W5xjaq5t-fHY_lPpw" version="21.8.1" type="github">
   <diagram name="Page-1" id="5cqEnjHebfaT1kJGdO-o">
     <mxGraphModel dx="1364" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AM4topthDhh8O_KRF2oz-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="60" width="690" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="AM4topthDhh8O_KRF2oz-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="420" width="690" height="300" as="geometry" />
+          <mxGeometry x="259" y="420" width="690" height="300" as="geometry" />
         </mxCell>
         <mxCell id="AM4topthDhh8O_KRF2oz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AM4topthDhh8O_KRF2oz-1" target="AM4topthDhh8O_KRF2oz-6">
           <mxGeometry relative="1" as="geometry">
@@ -34,7 +37,7 @@
         <mxCell id="AM4topthDhh8O_KRF2oz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AM4topthDhh8O_KRF2oz-6" target="AM4topthDhh8O_KRF2oz-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AM4topthDhh8O_KRF2oz-11" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AM4topthDhh8O_KRF2oz-10">
+        <mxCell id="AM4topthDhh8O_KRF2oz-11" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AM4topthDhh8O_KRF2oz-10">
           <mxGeometry x="0.0772" y="-3" relative="1" as="geometry">
             <mxPoint x="3" y="-4" as="offset" />
           </mxGeometry>
@@ -61,14 +64,24 @@
         <mxCell id="AM4topthDhh8O_KRF2oz-7" value="Use Case 2-2. Modifying a scheduled appointment." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="620" width="160" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="AM4topthDhh8O_KRF2oz-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AM4topthDhh8O_KRF2oz-9" target="AM4topthDhh8O_KRF2oz-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="400" />
+              <mxPoint x="393" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AM4topthDhh8O_KRF2oz-67" value="&amp;lt;&amp;lt;Uses&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AM4topthDhh8O_KRF2oz-66">
+          <mxGeometry x="-0.1327" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AM4topthDhh8O_KRF2oz-9" value="Use Case 2-3. Conducting an in-person energy audit of a home." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="540" width="200" height="80" as="geometry" />
+          <mxGeometry x="670" y="530" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AM4topthDhh8O_KRF2oz-24" value="Scheduling&amp;nbsp; System" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="420" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="AM4topthDhh8O_KRF2oz-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="60" width="690" height="300" as="geometry" />
         </mxCell>
         <mxCell id="AM4topthDhh8O_KRF2oz-30" value="Use Case 1-1. Connecting Electronic Devices" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="130" width="160" height="80" as="geometry" />
@@ -111,6 +124,14 @@
             <Array as="points">
               <mxPoint x="210" y="160" />
               <mxPoint x="210" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AM4topthDhh8O_KRF2oz-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AM4topthDhh8O_KRF2oz-41" target="AM4topthDhh8O_KRF2oz-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="350" />
+              <mxPoint x="590" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
