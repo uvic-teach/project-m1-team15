@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2023-11-28T07:31:06.255Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="zve_nTPFE8rJBADuXLmp" version="22.1.4" type="device">
+  <diagram name="Page-1" id="f37znJ-kPuiP-aYVYt2D">
+    <mxGraphModel dx="989" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mAKFKeToW0secv3d7RsR-1" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;Analytics Microservice" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="240" y="430" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mAKFKeToW0secv3d7RsR-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=0;exitY=0;exitDx=0;exitDy=32;exitPerimeter=0;" parent="1" source="mAKFKeToW0secv3d7RsR-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="270" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mAKFKeToW0secv3d7RsR-20" value="&amp;lt;&amp;lt;uses&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mAKFKeToW0secv3d7RsR-15" vertex="1" connectable="0">
+          <mxGeometry x="0.1304" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mAKFKeToW0secv3d7RsR-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.332;exitY=1.013;exitDx=0;exitDy=0;entryX=0.337;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitPerimeter=0;" parent="1" source="panotjyI7coNnwHldrG0-3" target="panotjyI7coNnwHldrG0-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="180.4999999999999" as="sourcePoint" />
+            <mxPoint x="443" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mAKFKeToW0secv3d7RsR-19" value="&amp;lt;&amp;lt;uses&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mAKFKeToW0secv3d7RsR-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.1398" relative="1" as="geometry">
+            <mxPoint x="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-3" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;Scheduler Microservice" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-4" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;&lt;br&gt;Registration Microservice" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.332;exitY=1.013;exitDx=0;exitDy=0;entryX=-0.022;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" target="mAKFKeToW0secv3d7RsR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543" y="280" as="sourcePoint" />
+            <mxPoint x="350" y="281" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-6" value="&amp;lt;&amp;lt;uses&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="panotjyI7coNnwHldrG0-5">
+          <mxGeometry x="-0.1398" relative="1" as="geometry">
+            <mxPoint x="-5" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.027;exitY=0.937;exitDx=0;exitDy=0;entryX=1.026;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="mAKFKeToW0secv3d7RsR-1" target="panotjyI7coNnwHldrG0-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="460" as="sourcePoint" />
+            <mxPoint x="47" y="461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-8" value="&amp;lt;&amp;lt;uses&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="panotjyI7coNnwHldrG0-7">
+          <mxGeometry x="-0.1398" relative="1" as="geometry">
+            <mxPoint x="-10" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.143;exitY=-0.016;exitDx=0;exitDy=0;entryX=0.999;entryY=0.398;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="mAKFKeToW0secv3d7RsR-1" target="panotjyI7coNnwHldrG0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="713" y="460" as="sourcePoint" />
+            <mxPoint x="520" y="461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="panotjyI7coNnwHldrG0-10" value="&amp;lt;&amp;lt;uses&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="panotjyI7coNnwHldrG0-9">
+          <mxGeometry x="-0.1398" relative="1" as="geometry">
+            <mxPoint x="11" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
